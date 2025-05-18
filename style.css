@@ -1,0 +1,156 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Barlow;
+}
+
+body {
+  background-color: #f6f3ef;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 1048px;
+  height: 391px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 203px;
+
+
+
+  .container {
+    border-width: 1px 0px 1px 1px;
+    border-style: solid;
+    border-color: #BBD0FF;
+    width: 461px;
+    height: 391px;
+    background-color: #fffffc;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+
+    h1 {
+      height: 38px;
+      font-family: Barlow;
+      font-weight: 600;
+      font-size: 32px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      text-align: center;
+      text-transform: capitalize;
+      color: #1576d6;
+    }
+
+    .holder {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+
+      label {
+        display: flex;
+        flex-direction: column;
+
+        span {
+          height: 19px;
+          font-family: Barlow;
+          font-weight: 500;
+          font-size: 16px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          text-transform: capitalize;
+          color: #25292C;
+        }
+
+        input {
+          width: 361px;
+          height: 50px;
+          font-family: Barlow;
+          font-weight: 400;
+          font-size: 16px;
+          line-height: 100%;
+          letter-spacing: 0%;
+          text-transform: capitalize;
+          border-radius: 12px;
+          padding-top: 10px;
+          padding-right: 16px;
+          padding-bottom: 10px;
+          padding-left: 16px;
+          border: 1px solid #6C757D80;
+
+          &::placeholder {
+            font-family: Barlow;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-transform: capitalize;
+
+          }
+        }
+      }
+
+      .b-1 {
+        width: 361;
+        height: 50;
+        border-radius: 12px;
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        border: none;
+        background-color: #25292C;
+        color: #FFFFFC;
+        font-family: Barlow;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        text-transform: capitalize;
+
+
+      }
+
+      .b-2 {
+        /* width: 225px;
+        height: 22px; */
+
+        width: 361px;
+        height: 50px;
+        border-radius: 12px;
+        padding-top: 12px;
+        padding-right: 16px;
+        padding-bottom: 12px;
+        padding-left: 16px;
+        border-width: 1px;
+        font-family: Barlow;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        vertical-align: middle;
+        text-transform: capitalize;
+
+
+        color: #25292C;
+        border: 1px solid #F4C123
+      }
+    }
+  }
+
+  .img {
+    img {
+      border-top-right-radius: 8px;
+      border-bottom-right-radius: 8px;
+      width: 587px;
+      height: 391px;
+    }
+  }
+}
